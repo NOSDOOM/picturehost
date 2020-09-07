@@ -8,6 +8,9 @@
         display: none;
       }
 
+.ASS-dialogue span {
+    -webkit-text-stroke-width:15px;
+}
 
       #fileLabel {
         display: block;
