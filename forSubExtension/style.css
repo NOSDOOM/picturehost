@@ -10,8 +10,6 @@
 
 .ASS-dialogue > span:nth-child(1) {
       text-shadow: none !important;
-    -webkit-text-stroke-width:15px !important;
-    -webkit-text-stroke-color: red !important;
 }
 
       #fileLabel {
