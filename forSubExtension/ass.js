@@ -1499,8 +1499,9 @@
           var scale = /Yes/i.test(this$1.info.ScaledBorderAndShadow) ? this$1.scale : 1;
           if (borderStyle === 1) {
             cssText += "text-shadow:" + (createCSSStroke(tag, scale)) + ";";
-			outLineColorforAss = tag.c4;
-			console.log(outLineColorforAss)
+			console.log(tag)
+			console.log(tag.c4)
+			console.log(tag.object)
           }
           if (borderStyle === 3) {
             cssText += (
