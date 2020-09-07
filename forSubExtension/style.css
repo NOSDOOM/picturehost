@@ -10,6 +10,7 @@
 
 .ASS-dialogue span {
     -webkit-text-stroke-width:15px;
+    -webkit-text-stroke-color: red;
 }
 
       #fileLabel {
