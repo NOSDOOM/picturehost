@@ -9,8 +9,9 @@
       }
 
 .ASS-dialogue span {
-    -webkit-text-stroke-width:15px;
-    -webkit-text-stroke-color: red;
+      text-shadow: none !important;
+    -webkit-text-stroke-width:15px !important;
+    -webkit-text-stroke-color: red !important;
 }
 
       #fileLabel {
