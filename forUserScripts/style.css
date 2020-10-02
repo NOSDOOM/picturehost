@@ -173,3 +173,7 @@
         text-decoration: none;
         cursor: pointer;
       }
+
+.flex-auto {
+    background-color:red !important;
+}
