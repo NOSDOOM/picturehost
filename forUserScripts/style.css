@@ -286,3 +286,7 @@
 u {
   text-decoration: underline !important;
 }
+
+#watching.qualitySelectionDetails::after {
+  content: "" !important;
+}
