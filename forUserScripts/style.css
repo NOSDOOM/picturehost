@@ -158,7 +158,7 @@
 /* Modal Content/Box */
 .modal-content {
   background-color: rgba(0, 0, 0, 0.6);
-  margin: 1% auto; /* 15% from the top and centered */
+  margin: 0% auto; /* 15% from the top and centered */
   padding: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
 }
