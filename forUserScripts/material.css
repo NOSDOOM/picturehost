@@ -1,0 +1,59 @@
+html,
+body {
+  width: 300px;
+  background-color: #1b1a26;
+}
+
+.hidden {
+  display: none;
+}
+
+label {
+  left: 20px;
+  position: relative;
+  height:100px;
+  display: inline-block;
+  width:250px;
+}
+
+.labelText {
+  top: 10px;
+  position: relative;
+  width: 250px !important;
+  display: inline-block;
+  text-align: center;
+}
+
+.lever {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  box-sizing:border-box;
+}
+
+.switch {
+  height:75px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.switch label .lever {
+  background-color: #939393 !important;
+}
+
+.switch label .lever::before {
+  background-color:rgb(255,235,102, 0.15) !important;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #ffdd00 !important;
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+  background-color: #ffeb66 !important;
+}
