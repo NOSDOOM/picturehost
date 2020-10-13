@@ -299,7 +299,7 @@ u {
     position:absolute;
     font-size:1.75rem;
     color:white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 4px black;
     -webkit-user-select: none;
     paint-order: stroke fill;
 }
