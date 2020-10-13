@@ -290,3 +290,15 @@ u {
 #watching.qualitySelectionDetails::after {
   content: "" !important;
 }
+
+#currentTime{
+    float:left;
+    top: 3rem;
+    left:3rem;
+    display:block;
+    position:absolute;
+    font-size:1.75rem;
+    color:white;
+    -webkit-text-stroke: 1px black;
+    -webkit-user-select: none;
+}
