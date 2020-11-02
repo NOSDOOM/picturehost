@@ -161,7 +161,7 @@
   margin: 0% auto; /* 15% from the top and centered */
   padding: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 /* The Close Button */
@@ -292,15 +292,27 @@ u {
   content: "" !important;
 }
 
-#currentTime{
-    float:left;
-    top: 3rem;
-    left:3rem;
-    display:block;
-    position:absolute;
-    font-size:1.75rem;
-    color:white;
-    -webkit-text-stroke: 4px black;
-    -webkit-user-select: none;
-    paint-order: stroke fill;
+#currentTime {
+  float: left;
+  top: 3rem;
+  left: 3rem;
+  display: block;
+  position: absolute;
+  font-size: 1.75rem;
+  color: white;
+  -webkit-text-stroke: 4px black;
+  -webkit-user-select: none;
+  paint-order: stroke fill;
+}
+
+#epdesc {
+  -webkit-text-stroke: 4px black;
+  paint-order: stroke;
+  position: absolute;
+  z-index: 10000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  top: 50%;
+  left: 3rem;
+  pointer-events: none;
 }
