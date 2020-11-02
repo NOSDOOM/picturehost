@@ -304,15 +304,3 @@ u {
   -webkit-user-select: none;
   paint-order: stroke fill;
 }
-
-#epdesc {
-  -webkit-text-stroke: 4px black;
-  paint-order: stroke;
-  position: absolute;
-  z-index: 10000;
-  color: #ffffff;
-  font-size: 1.5rem;
-  top: 50%;
-  left: 3rem;
-  pointer-events: none;
-}
