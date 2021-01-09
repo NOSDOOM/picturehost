@@ -36,7 +36,7 @@ function waitForKeyElements(selectorOrFunction, callback, waitOnce, interval, ma
             ? selectorOrFunction()
             : document.querySelectorAll(selectorOrFunction);
 
-    var targetsFound = targetNodes && targetNodes.length > 0;
+    var targetsFound = targetNodes[0] && targetNodes[0].length > 0;
     if (targetsFound) {
         targetNodes.forEach(function(targetNode) {
             var attrAlreadyFound = "data-userscript-alreadyFound";
