@@ -1,22 +1,27 @@
 .anicancelled,
+.apcancelled,
 .malcancelled,
 .mcancelled {
   background-color: #e80030;
 }
 
 .anicompleted,
+.apcompleted,
 .malcompleted,
-.mcompleted {
+.mcompleted,
+.apcompleter {
   background-color: #00b8ff;
 }
 
 .anihiatus,
+.aphiatus,
 .malhiatus,
 .mhiatus {
   background-color: #ff602e;
 }
 
 .aniongoing,
+.apongoing,
 .malongoing,
 .mongoing {
   background-color: #00ff27;
@@ -89,5 +94,6 @@
   border-radius: 50px;
   transition: width 1s;
   overflow: hidden;
+  box-sizing: border-box;
   line-height: 24px;
 }
