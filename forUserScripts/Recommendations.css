@@ -177,3 +177,17 @@
 #recsTab {
   grid-template-rows: repeat(2, 1fr);
 }
+
+.showStatus{
+  height:0;
+  position:absolute;
+  z-index:0;
+  margin-left:2px;
+  padding-left:20px;
+  top:2px;
+  width:0px;
+  border-radius:50px;
+  transition: width 1s;
+  overflow:hidden;
+  box-sizing: border-box;
+}
