@@ -178,7 +178,7 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
-.showStatus{
+.showStatus {
   height:0;
   position:absolute;
   z-index:0;
