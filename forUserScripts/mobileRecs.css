@@ -1,0 +1,100 @@
+.anicancelled,
+.apcancelled,
+.malcancelled,
+.mcancelled {
+  background-color: #e80030;
+}
+
+.anicompleted,
+.apcompleted,
+.malcompleted,
+.mcompleted,
+.apcompleter {
+  background-color: #00b8ff;
+}
+
+.anihiatus,
+.aphiatus,
+.malhiatus,
+.mhiatus {
+  background-color: #ff602e;
+}
+
+.aniongoing,
+.apongoing,
+.malongoing,
+.mongoing {
+  background-color: #00ff27;
+}
+
+.card-img-top,
+.card-img-top-md {
+  max-width: 186px;
+}
+
+.card-img-top-md {
+  vertical-align: bottom;
+}
+
+.card-text {
+  box-sizing: border-box;
+  color: #ff6740;
+  font-weight: 500;
+  max-width: 186px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card-text:hover {
+  font-weight: bold;
+}
+
+.gridCol {
+  max-width: 176px;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.malIndicator {
+  bottom: 0;
+  height: 25px;
+  left: 0;
+  position: absolute;
+}
+
+.mStatusIcon {
+  border-radius: 100%;
+  height: 12px;
+  left: 5px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
+}
+
+#recsTab {
+  display: grid;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.showStatus {
+  height: 0;
+  position: absolute;
+  z-index: 0;
+  margin-left: 2px;
+  padding-left: 20px;
+  padding-right: 10px;
+  top: 2px;
+  width: 0px;
+  border-radius: 50px;
+  transition: width 1s;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
