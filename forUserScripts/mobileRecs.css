@@ -29,7 +29,7 @@
 
 .card-img-top,
 .card-img-top-md {
-  max-width: 93px;
+  max-width: 186px;
 }
 
 .card-img-top-md {
@@ -40,7 +40,7 @@
   box-sizing: border-box;
   color: #ff6740;
   font-weight: 500;
-  max-width: 93px;
+  max-width: 186px;
   padding: 6px;
   text-align: center;
   text-decoration: underline;
@@ -51,7 +51,7 @@
 }
 
 .gridCol {
-  max-width: 83px;
+  max-width: 176px;
 }
 
 .iconWrapper {
@@ -78,7 +78,7 @@
   display: grid;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
 
