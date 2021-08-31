@@ -29,7 +29,7 @@
 
 .card-img-top,
 .card-img-top-md {
-  max-width: 186px;
+  max-width: 176px;
 }
 
 .card-img-top-md {
@@ -40,7 +40,7 @@
   box-sizing: border-box;
   color: #ff6740;
   font-weight: 500;
-  max-width: 186px;
+  width: 176px;
   padding: 6px;
   text-align: center;
   text-decoration: underline;
