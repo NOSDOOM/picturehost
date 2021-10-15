@@ -32,9 +32,9 @@
   max-width: 186px;
 }*/
 
-.card-img-top-md {
+/*.card-img-top-md {
   vertical-align: bottom;
-}
+}*/
 
 .card-text {
   box-sizing: border-box;
@@ -54,9 +54,9 @@
   max-width: 176px;
 }*/
 
-.iconWrapper {
+/*.iconWrapper {
   position: relative;
-}
+}*/
 
 .malIndicator {
   bottom: 0;
@@ -96,10 +96,6 @@
   overflow: hidden;
   box-sizing: border-box;
   line-height: 24px;
-}
-
-body {
-	background-color: #262626;
 }
 
 #recsTab {
