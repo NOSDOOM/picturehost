@@ -27,10 +27,10 @@
   background-color: #00ff27;
 }
 
-.card-img-top,
+/*.card-img-top,
 .card-img-top-md {
   max-width: 186px;
-}
+}*/
 
 .card-img-top-md {
   vertical-align: bottom;
@@ -50,9 +50,9 @@
   font-weight: bold;
 }
 
-.gridCol {
+/*.gridCol {
   max-width: 176px;
-}
+}*/
 
 .iconWrapper {
   position: relative;
@@ -74,13 +74,13 @@
   width: 12px;
 }
 
-#recsTab {
+/*#recsTab {
   display: grid;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
-}
+}*/
 
 .showStatus {
   height: 0;
@@ -96,4 +96,77 @@
   overflow: hidden;
   box-sizing: border-box;
   line-height: 24px;
+}
+
+body {
+	background-color: #262626;
+}
+
+#recsTab {
+	margin-top: 20px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(min-content, 292px));
+	justify-content: center;
+	column-gap: 8px;
+}
+
+.gridCol{
+	width: 100%;
+	height: 100%;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media only screen and (min-width: 640px) {
+	#recsTab {
+		grid-template-columns: repeat(2, minmax(min-content, 292px));
+		justify-content: center;
+		row-gap: 8px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#recsTab {
+		grid-template-columns: repeat(3, minmax(min-content, 234px));
+		justify-content: center;
+		row-gap: 8px;
+
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#recsTab {
+		grid-template-columns: repeat(4, minmax(min-content, 174px));
+		justify-content: center;
+		row-gap: 8px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	#recsTab {
+		grid-template-columns: repeat(5, minmax(min-content, 188px));
+		justify-content: center;
+		row-gap: 8px;
+	}
+}
+
+@media only screen and (min-width: 1536px) {
+	#recsTab {
+		grid-template-columns: repeat(6, minmax(min-content, 198px));
+		justify-content: center;
+		row-gap: 8px;
+	}
+}
+
+@media only screen and (min-width: 1904px) {
+	#recsTab {
+		grid-template-columns: repeat(6, minmax(min-content, 260px));
+		justify-content: center;
+		row-gap: 8px;
+	}
 }
