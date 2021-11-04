@@ -94,8 +94,8 @@
 
 .card-img-top,
 .card-img-top-md {
-  height: 415px !important;
-  width: 292px !important;
+  height: 239px !important;
+  width: 152px !important;
 }
 
 .gridCol,
@@ -112,7 +112,7 @@
   object-fit: cover;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 600px) {
   #recsTab {
     grid-template-columns: repeat(2, minmax(min-content, 292px));
     justify-content: center;
