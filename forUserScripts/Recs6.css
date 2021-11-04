@@ -87,7 +87,7 @@
   margin-top: 20px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, 292px));
+  grid-template-columns: repeat(2, minmax(min-content, 152px));
   justify-content: center;
   column-gap: 8px;
 }
