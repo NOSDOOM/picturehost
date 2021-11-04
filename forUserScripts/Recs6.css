@@ -2,7 +2,7 @@
 .apcancelled,
 .malcancelled,
 .mcancelled {
-    background-color: #e80030;
+  background-color: #e80030;
 }
 
 .anicompleted,
@@ -10,178 +10,184 @@
 .malcompleted,
 .mcompleted,
 .apcompleter {
-    background-color: #00b8ff;
+  background-color: #00b8ff;
 }
 
 .anihiatus,
 .aphiatus,
 .malhiatus,
 .mhiatus {
-    background-color: #ff602e;
+  background-color: #ff602e;
 }
 
 .aniongoing,
 .apongoing,
 .malongoing,
 .mongoing {
-    background-color: #00ff27;
+  background-color: #00ff27;
 }
 
 .card-img-top-md {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 .card-text {
-    box-sizing: border-box;
-    color: #ff6740;
-    font-weight: 500;
-    width: 100%;
-    padding: 6px;
-    text-align: center;
-    text-decoration: underline;
+  box-sizing: border-box;
+  color: #ff6740;
+  font-weight: 500;
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .card-text:hover {
-    font-weight: bold;
-    padding-left:4px;
-    padding-right:4px;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .showStatus {
-    height: 0;
-    position: absolute;
-    z-index: 0;
-    margin-left: 2px;
-    padding-left: 20px;
-    padding-right: 10px;
-    top: 2px;
-    width: 0px;
-    border-radius: 50px;
-    transition: width 1s;
-    overflow: hidden;
-    box-sizing: border-box;
-    line-height: 24px;
+  height: 0;
+  position: absolute;
+  z-index: 0;
+  margin-left: 2px;
+  padding-left: 20px;
+  padding-right: 10px;
+  top: 2px;
+  width: 0px;
+  border-radius: 50px;
+  transition: width 1s;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 24px;
 }
 
 .iconWrapper {
-    position: relative;
+  position: relative;
 }
 
 .malIndicator {
-    bottom: 0;
-    height: 25px;
-    left: 0;
-    position: absolute;
+  bottom: 0;
+  height: 25px;
+  left: 0;
+  position: absolute;
 }
 
 .mStatusIcon {
-    border-radius: 100%;
-    height: 12px;
-    left: 5px;
-    position: absolute;
-    top: 8px;
-    width: 12px;
+  border-radius: 100%;
+  height: 12px;
+  left: 5px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
 }
 
 #recsTab {
-    margin-top: 20px;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, 292px));
-    justify-content: center;
-    column-gap: 8px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, 292px));
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.card-img-top,
+.card-img-top-md {
+  height: 415px !important;
+  width: 292px !important;
 }
 
 .gridCol,
 .card,
 .iconWrapper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .card-img-top,
 .card-img-top-md {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 640px) {
-    #recsTab {
-        grid-template-columns: repeat(2, minmax(min-content, 292px));
-        justify-content: center;
-        row-gap: 8px;
-    }
-    .card-img-top,
-    .card-img-top-md {
-        height: 415px !important;
-        width: 292px !important;
-    }
+  #recsTab {
+    grid-template-columns: repeat(2, minmax(min-content, 292px));
+    justify-content: center;
+    row-gap: 8px;
+  }
+  .card-img-top,
+  .card-img-top-md {
+    height: 415px !important;
+    width: 292px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    #recsTab {
-        grid-template-columns: repeat(3, minmax(min-content, 234px));
-        justify-content: center;
-        row-gap: 8px;
-    }
+  #recsTab {
+    grid-template-columns: repeat(3, minmax(min-content, 234px));
+    justify-content: center;
+    row-gap: 8px;
+  }
 
-    .card-img-top {
-        height: 334px !important;
-        width: 235px !important;
-    }
+  .card-img-top {
+    height: 334px !important;
+    width: 235px !important;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-    #recsTab {
-        grid-template-columns: repeat(4, minmax(min-content, 174px));
-        justify-content: center;
-        row-gap: 8px;
-    }
-    .card-img-top,
-    .card-img-top-md {
-        height: 247px !important;
-        width: 174px !important;
-    }
+  #recsTab {
+    grid-template-columns: repeat(4, minmax(min-content, 174px));
+    justify-content: center;
+    row-gap: 8px;
+  }
+  .card-img-top,
+  .card-img-top-md {
+    height: 247px !important;
+    width: 174px !important;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    #recsTab {
-        grid-template-columns: repeat(5, minmax(min-content, 188px));
-        justify-content: center;
-        row-gap: 8px;
-    }
-    .card-img-top,
-    .card-img-top-md {
-        height: 268px !important;
-        width: 188px !important;
-    }
+  #recsTab {
+    grid-template-columns: repeat(5, minmax(min-content, 188px));
+    justify-content: center;
+    row-gap: 8px;
+  }
+  .card-img-top,
+  .card-img-top-md {
+    height: 268px !important;
+    width: 188px !important;
+  }
 }
 
 @media only screen and (min-width: 1536px) {
-    #recsTab {
-        grid-template-columns: repeat(6, minmax(min-content, 198px));
-        justify-content: center;
-        row-gap: 8px;
-    }
+  #recsTab {
+    grid-template-columns: repeat(6, minmax(min-content, 198px));
+    justify-content: center;
+    row-gap: 8px;
+  }
 
-    .card-img-top,
-    .card-img-top-md {
-        height: 282px !important;
-        width: 199px !important;
-    }
+  .card-img-top,
+  .card-img-top-md {
+    height: 282px !important;
+    width: 199px !important;
+  }
 }
 
 @media only screen and (min-width: 1904px) {
-    #recsTab {
-        grid-template-columns: repeat(6, minmax(min-content, 260px));
-        justify-content: center;
-        row-gap: 8px;
-    }
+  #recsTab {
+    grid-template-columns: repeat(6, minmax(min-content, 260px));
+    justify-content: center;
+    row-gap: 8px;
+  }
 
-    .card-img-top,
-    .card-img-top-md {
-        height: 369px !important;
-        width: 260px !important;
-    }
+  .card-img-top,
+  .card-img-top-md {
+    height: 369px !important;
+    width: 260px !important;
+  }
 }
